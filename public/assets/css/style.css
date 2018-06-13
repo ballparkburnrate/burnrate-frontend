@@ -76,6 +76,15 @@ ul.side-nav.leftside-navigation {
   height: 100%;
 }
 
+/*----------------------------------------
+   Body
+------------------------------------------*/
 
-
-
+.card-title {
+  text-align: center;
+  font-weight: 700;
+}
+#submit {
+  width: 200px;
+  
+}

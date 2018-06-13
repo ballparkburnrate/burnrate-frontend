@@ -46,14 +46,9 @@
     </div>
     <!-- end header nav-->
   </header>
-  <!-- END HEADER -->
-
-  <!-- START MAIN -->
-  <div id="main">
-    <!-- START WRAPPER -->
-    <div class="wrapper">
-      <!-- START LEFT SIDEBAR NAV-->
-      <aside id="left-sidebar-nav">
+  <body class="container">
+      <div class="row">
+  <aside id="left-sidebar-nav" class="col">
         <ul id="slide-out" class="side-nav fixed leftside-navigation">
           <li>
             <a href="" target="_blank">
@@ -69,54 +64,17 @@
             </li>          
         </ul>
       </aside>
-      <!-- END LEFT SIDEBAR NAV-->
-
-      <!-- START CONTENT -->
-      <section id="content">
-        <!--start container-->
-        <div class="container">
-          <div class="section">
-          <div class="row">
-              <div class="col s8">
-                  <div class="card-panel">
-                    <div class="card-content">
-                            <p class="card-title">Company Info</p>
-                            <p>Company Name:<input id="name" type="text" placeholder="Ballpark Burnrate"></p>
-                            <p>Cash:<input id="cash" type="text" placeholder="1000000"></p>
-                            <p>Expenses:<input id="expense" type="text" placeholder="10000"></p>
-                            <p>Income:<input  id="income" type="text" placeholder="10000"></p>
-                            <input id="submit" type="button" value="Submit">
-                    </div>
-                  </div>
-                </div>
-              <div class="col s4">
-                      <div class="card">
-                        <div class="card-image">
-                          <img src="../VC2_final_branding1.png">
-                          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">x</i></a>
-                        </div>
-                        <div class="card-content">
-                                <span class="card-title">Cash Remaining</span>
-                          <p></p>
-                        </div>
-                      </div>
-                    </div>
-            </div>
+<div class="col s8">
+        <div class="card-panel">
+          <div class="card-content">
+                  <p class="card-title">Company Info</p>
+                  <p>Company Name:<input id="name" type="text" placeholder="Ballpark Burnrate"></p>
+                  <p>Cash:<input id="cash" type="text" placeholder="1000000"></p>
+                  <p>Expenses:<input id="expense" type="text" placeholder="10000"></p>
+                  <p>Income:<input  id="income" type="text" placeholder="10000"></p>
+                  <input id="submit" type="button" value="Submit">
           </div>
-
         </div>
-        <!--end container-->
-      </section>
-      <!-- END CONTENT -->
+      </div>
     </div>
-    <!-- END WRAPPER -->
-  </div>
-  <!-- END MAIN -->
-
-  <script src="https://d3js.org/d3.v5.js"></script>
-  <script type="text/javascript" src="../public/assets/js/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="../public/assets/js/materialize.min.js"></script>
-  <script type="text/javascript" src="../public/assets/js/bp-burnout.js"></script>
-</body>
-
-</html>
+    </body>
