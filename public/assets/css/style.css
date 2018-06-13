@@ -88,3 +88,12 @@ ul.side-nav.leftside-navigation {
   width: 200px;
   
 }
+
+/*----------------------------------------
+   Liquid Gauge Graphs
+------------------------------------------*/
+
+.liquidFillGaugeText { 
+  font-family: Helvetica; 
+  font-weight: bold; 
+}
