@@ -58,3 +58,38 @@ var donut_chart = Morris.Donut({
       '#95D7BB'
       ]
   });
+/*********************************
+*  Start of Area Graph   *
+******************************** */
+var YourList ={
+  1:["Jan",20],
+  2:["Feb",15],
+  3:["Mar",10],
+};
+
+var myJSON = [];
+$.each(YourList, function (i, item) {
+
+    var jsonArray = { month: YourList[i][0] , value: YourList[i][1] };
+    var temp = jsonArray;
+    myJSON.push(temp);
+
+});
+console.log(myJSON);
+var bar_chart = Morris.Area({
+  element: 'line',
+  xLabelMargin: 10,
+  xLabelAngle: 45,
+  LabelMargin: 10,
+  parseTime: false,
+  data: myJSON,
+  xkey: 'month',
+  ykeys: ['value'],
+  labels: ['Cash Remaining '],
+  lineColors: [
+    '#0BA462'
+    ],
+  pointFillColors: ['black'],
+  pointStrokeColors: ['black'],
+  yLabelFormat:function (y) { return "$" + y.toString(); },
+});

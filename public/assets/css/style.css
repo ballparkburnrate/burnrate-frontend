@@ -130,3 +130,14 @@ ul.side-nav.leftside-navigation {
 #pie-chart{
   min-height: 250px;
 }
+
+/* Area Chart  */
+.morris-hover {
+  text-align: center;
+}
+text {
+  fill: black;
+}
+.morris-hover-point {
+  color: '#0BA462';
+}
