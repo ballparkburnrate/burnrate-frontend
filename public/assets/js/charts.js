@@ -39,7 +39,7 @@ d3.select("#fillgauge5").call(d3.liquidfillgauge, 60.44, {
 *  Start of Morris Donut Chart   *
 ******************************** */
 
-Morris.Donut({
+var donut_chart = Morris.Donut({
     element: 'donut-chart',
     // Array that holds info for values and categories
     data: [
