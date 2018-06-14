@@ -39,23 +39,21 @@ d3.select("#fillgauge5").call(d3.liquidfillgauge, 60.44, {
 *  Start of Morris Donut Chart   *
 ******************************** */
 
-var donut_chart = Morris.Donut({
+Morris.Donut({
     element: 'donut-chart',
     // Array that holds info for values and categories
     data: [
       {label: "Employees", value: 30},
-      {label: "Rent", value: 15},
-      {label: "Supplies", value: 45},
-      {label: "Miscellaneous", value: 10}
+      {label: "Rent", value: 45},
+      {label: "Miscellaneous", value: 45}
     ],
     // Change Color or inside Text
-    labelColor: '#060',
+    labelColor: '#4d4d4d',
     // Change Colors of each Bar
     colors: [
-      '#0BA462',
-      '#39B580',
-      '#67C69D',
-      '#95D7BB'
+      '#49a361',
+      '#e5715b',
+      '#487ea5'
       ]
   });
 /*********************************

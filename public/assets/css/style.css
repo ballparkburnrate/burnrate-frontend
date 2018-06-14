@@ -85,6 +85,7 @@ ul.side-nav.leftside-navigation {
    Main Page Content
 ------------------------------------------*/
 .card {
+  text-align: center;
   background: #cfd8dc;
   background: linear-gradient(45deg, #cfd8dc 0%, #546e7a 100%);
   box-shadow: 0 6px 20px 0 rgba(84, 110, 122, 0.5);
@@ -92,6 +93,10 @@ ul.side-nav.leftside-navigation {
 
 .card-cashRemaining {
   padding: 20px 0 0 0;
+  background: #FF5252;
+  background: -webkit-linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
+  background: linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
+  box-shadow: 0 6px 20px 0 rgba(244, 143, 177, 0.5);
 }
 
 .card-income {
@@ -102,6 +107,12 @@ ul.side-nav.leftside-navigation {
   box-shadow: 0 6px 20px 0 rgba(77, 182, 172, 0.5);
 }
 
+.card-expenses {
+  background: #2962FF;
+  background: -webkit-linear-gradient(45deg, #2962FF 0%, #3949ab 100%);
+  background: linear-gradient(45deg, #2962FF 0%, #3949ab 100%);
+  box-shadow: 0 6px 20px 0 rgba(57, 73, 171, 0.5);
+}
 
 /*----------------------------------------
    Input Page Body
@@ -130,6 +141,9 @@ ul.side-nav.leftside-navigation {
 #pie-chart{
   min-height: 250px;
 }
+#donut-chart{
+  height: 250px;
+}
 
 /* Area Chart  */
 .morris-hover {
@@ -140,4 +154,6 @@ text {
 }
 .morris-hover-point {
   color: '#0BA462';
+
 }
+
