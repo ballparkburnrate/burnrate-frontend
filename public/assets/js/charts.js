@@ -39,7 +39,7 @@ d3.select("#fillgauge5").call(d3.liquidfillgauge, 60.44, {
 *  Start of Morris Donut Chart   *
 ******************************** */
 
-var donut_chart = Morris.Donut({
+Morris.Donut({
     element: 'donut-chart',
     // Array that holds info for values and categories
     data: [
@@ -48,7 +48,7 @@ var donut_chart = Morris.Donut({
       {label: "Miscellaneous", value: 45}
     ],
     // Change Color or inside Text
-    labelColor: '#060',
+    labelColor: '#4d4d4d',
     // Change Colors of each Bar
     colors: [
       '#49a361',
