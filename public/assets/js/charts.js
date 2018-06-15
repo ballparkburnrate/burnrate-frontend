@@ -87,9 +87,16 @@ var bar_chart = Morris.Area({
   ykeys: ['value'],
   labels: ['Cash Remaining '],
   lineColors: [
+<<<<<<< HEAD
     'lightblue'
     ],
   pointFillColors: ['lightblue'],
   pointStrokeColors: ['lightblue'],
+=======
+    '#9ED2DB',
+    ],
+  pointFillColors: ["#9ED2DB"],
+  pointStrokeColors: ["#9ED2DB"],
+>>>>>>> 3576baeb2e1d0cfdcf4d7d3df3cff6db0611219c
   yLabelFormat:function (y) { return "$" + y.toString(); },
 });
