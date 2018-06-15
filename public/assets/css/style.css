@@ -80,6 +80,12 @@ ul.side-nav.leftside-navigation {
   z-index: 999;
   height: auto;
 }
+.btn {
+  background-color: #ADADAD;
+}
+.btn:hover  {
+  background-color: lightblue !important;
+}
 
 /*----------------------------------------
    Main Page Content
