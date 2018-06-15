@@ -138,11 +138,9 @@ ul.side-nav.leftside-navigation {
 }
 
 /* Morris Expense Donut Chart */
-#pie-chart{
-  min-height: 250px;
-}
+
 #donut-chart{
-  height: 250px;
+  height: 220px;
 }
 
 /* Area Chart  */
@@ -154,6 +152,7 @@ text {
 }
 .morris-hover-point {
   color: '#0BA462';
-
 }
-
+#linecard {
+  box-shadow: 0 6px 20px 0 rgba(57, 73, 171, 0.5);
+}
