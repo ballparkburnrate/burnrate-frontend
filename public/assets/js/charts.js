@@ -44,16 +44,18 @@ Morris.Donut({
     // Array that holds info for values and categories
     data: [
       {label: "Employees", value: 30},
-      {label: "Rent", value: 200},
+      {label: "Rent", value: 50},
+      {label: "Gas", value: 35},
       {label: "Miscellaneous", value: 45}
     ],
     // Change Color or inside Text
-    labelColor: '#4d4d4d',
+    labelColor: '#fff',
     // Change Colors of each Bar
     colors: [
-      '#49a361',
-      '#e5715b',
-      '#487ea5'
+      '#9ED2DB',
+      '#ADADAD',
+      '#A3DCE6',
+      '#ADADAD'
       ]
   });
 /*********************************
@@ -85,9 +87,9 @@ var bar_chart = Morris.Area({
   ykeys: ['value'],
   labels: ['Cash Remaining '],
   lineColors: [
-    '#0BA462'
+    'lightblue'
     ],
-  pointFillColors: ['black'],
-  pointStrokeColors: ['black'],
+  pointFillColors: ['lightblue'],
+  pointStrokeColors: ['lightblue'],
   yLabelFormat:function (y) { return "$" + y.toString(); },
 });
