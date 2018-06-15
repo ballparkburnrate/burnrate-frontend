@@ -44,7 +44,7 @@ Morris.Donut({
     // Array that holds info for values and categories
     data: [
       {label: "Employees", value: 30},
-      {label: "Rent", value: 45},
+      {label: "Rent", value: 200},
       {label: "Miscellaneous", value: 45}
     ],
     // Change Color or inside Text
