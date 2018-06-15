@@ -30,11 +30,13 @@ h1.logo-wrapper {
 }
 
 h1 span.logo-text {
-  font-size: 26px;
+  font-size: 40px;
   padding-left: 8px;
   visibility: visible;
   opacity: 1;
   transition: opacity 0.2s linear;
+  font-family: 'Faster One', cursive;
+  color: #9ED2DB;
 }
 
 header .brand-logo {
@@ -52,7 +54,7 @@ header .brand-logo img {
 .nav-color {
   background: #ADADAD;
   background: linear-gradient(45deg, #ADADAD 0%, #5E5E5E 100%);
-  box-shadow: 0 6px 20px 0 rgba(173, 173, 173, 0.5);
+  /* box-shadow: 0 6px 20px 0 rgba(173, 173, 173, 0.5); */
 }
 
 /*----------------------------------------
@@ -86,6 +88,10 @@ ul.side-nav.leftside-navigation {
 .btn:hover  {
   background-color: lightblue !important;
 }
+.btn:focus  {
+  background-color: black !important;
+}
+
 
 /*----------------------------------------
    Main Page Content
@@ -165,4 +171,12 @@ text {
 }
 #linecard {
   box-shadow: 0 6px 20px 0 rgba(57, 73, 171, 0.5);
+}
+
+/*  Modals  */
+.btn-flat  {
+  background-color: #ADADAD;
+}
+.btn-flat:hover  {
+  background-color: lightblue !important;
 }
