@@ -61,26 +61,32 @@
       <!-- START LEFT SIDEBAR NAV-->
       <aside id="left-sidebar-nav">
         <ul id="slide-out" class="side-nav fixed leftside-navigation">
+            <li>
+                <a class="waves-effect waves-dark btn modal-trigger" href="#signin">
+                  <i class="material-icons">lock</i>
+                  <span class="waves-effect waves-block waves-light nav-text">Sign In</span>
+                </a>
+              </li>          
           <li>
-            <a href="" target="_blank">
+            <a class="waves-effect waves-dark btn" href="" target="_blank">
               <i class="material-icons">account_balance_wallet</i>
               <span class="waves-effect waves-block waves-light nav-text">Dashboard</span>
             </a>
           </li>
           <li>
-            <a href="" target="_blank">
+              <a class="waves-effect waves-dark btn modal-trigger" href="#company">
               <i class="material-icons">list</i>
               <span class="waves-effect waves-block waves-light nav-text">Company Info</span>
             </a>
           </li>
           <li>
-              <a href="" target="_blank">
+              <a class="waves-effect waves-dark btn modal-trigger" href="#expenses">
                 <i class="material-icons">list</i>
                 <span class="waves-effect waves-block waves-light nav-text">Expense Info</span>
               </a>
             </li>
             <li>
-                <a href="" target="_blank">
+                <a class="waves-effect waves-dark btn modal-trigger" href="#income">
                   <i class="material-icons">list</i>
                   <span class="waves-effect waves-block waves-light nav-text">Income Info</span>
                 </a>
@@ -138,6 +144,78 @@
                   </div>              
             </div>
           </div>
+          <!-- The Modals -->
+
+                    <!-- Sign In -->
+<div id="signin" class="modal">
+    <div class="modal-content">
+        <div class="card-panel">
+            <div class="card-content">
+                <p class="card-title">Sign In</p>
+                <p>Username:
+                    <input id="username" type="text" placeholder="jomo1">
+                </p>
+                <p>Password:
+                    <input id="pass" type="text" placeholder="xxxxx">
+                </p>   
+                <a href="#!" id="signinbtn" class="modal-close waves-effect waves-light btn-flat">Submit</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+    </div>
+
+              <!-- Company Info -->
+  </div>
+  <div id="company" class="modal">
+      <div class="modal-content">
+          <div class="card-panel">
+              <div class="card-content">
+                  <p class="card-title">Company Info</p>
+                  <p>Company Name:
+                      <input id="companyname" type="text" placeholder="Ballpark Burnrate">
+                  </p>
+                  <a href="#!" id="addcompanybtn" class="modal-close waves-effect waves-light btn-flat">Add Company</a>                  
+                  <a href="#!" id="companybtn" class="modal-close waves-effect waves-light btn-flat">Close</a>
+              </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+
+            <!-- Expenses -->
+    <div id="expenses" class="modal">
+        <div class="modal-content">
+            <p>Expense Amount:
+                <input id="expense" type="text" placeholder="10000">
+            </p>
+            <p>Vendor:
+                <input id="expense" type="text" placeholder="10000">
+            </p>
+            <p>Expense Description:
+                <input id="expense" type="text" placeholder="10000">
+            </p>
+            <p>Is this a recurring expense?:
+                <input id="expense" type="text" placeholder="10000">
+            </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-light btn-flat">Agree</a>
+        </div>
+      </div>
+
+           <!-- Income -->
+      <div id="income" class="modal">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-light btn-flat">Agree</a>
+          </div>
+        </div>
+  
 
         </div>
         <!--end container-->
@@ -147,6 +225,8 @@
     <!-- END WRAPPER -->
   </div>
   <!-- END MAIN -->
+
+
 
   <!--Scripts-->
 

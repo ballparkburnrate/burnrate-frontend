@@ -93,3 +93,11 @@ var bar_chart = Morris.Area({
   pointStrokeColors: ["#9ED2DB"],
   yLabelFormat:function (y) { return "$" + y.toString(); },
 });
+
+/*********************************
+*  Modals  *
+******************************** */
+
+$(document).ready(function(){
+  $('.modal').modal();
+});
