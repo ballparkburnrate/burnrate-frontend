@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background-color: #282827;
+  background-color: #9ED2DB;
 }
 
 #main {
@@ -50,9 +50,9 @@ header .brand-logo img {
 }
 
 .nav-color {
-  background: #cfd8dc;
-  background: linear-gradient(45deg, #cfd8dc 0%, #546e7a 100%);
-  box-shadow: 0 6px 20px 0 rgba(84, 110, 122, 0.5);
+  background: #ADADAD;
+  background: linear-gradient(45deg, #ADADAD 0%, #5E5E5E 100%);
+  box-shadow: 0 6px 20px 0 rgba(173, 173, 173, 0.5);
 }
 
 /*----------------------------------------
@@ -86,33 +86,30 @@ ul.side-nav.leftside-navigation {
 ------------------------------------------*/
 .card {
   text-align: center;
-  background: #cfd8dc;
-  background: linear-gradient(45deg, #cfd8dc 0%, #546e7a 100%);
-  box-shadow: 0 6px 20px 0 rgba(84, 110, 122, 0.5);
+  background: #ADADAD;
+  background: linear-gradient(45deg, #ADADAD 0%, #5E5E5E 100%);
+  box-shadow: 0 6px 20px 0 rgba(173, 173, 173, 0.5);
 }
 
 .card-cashRemaining {
   
   padding: 20px 0 0 0;
-  background: #FF5252;
-  background: -webkit-linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
-  background: linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
-  box-shadow: 0 6px 20px 0 rgba(244, 143, 177, 0.5);
+  background: #ADADAD;
+  background: linear-gradient(45deg, #ADADAD 0%, #5E5E5E 100%);
+  box-shadow: 0 6px 20px 0 rgba(173, 173, 173, 0.5);
 }
 
 .card-income {
   padding: 20px 0 0 0;
-  background: #43A047;
-  background: -webkit-linear-gradient(45deg, #43A047 0%, #1de9b6 100%);
-  background: linear-gradient(45deg, #43A047 0%, #1de9b6 100%);
-  box-shadow: 0 6px 20px 0 rgba(77, 182, 172, 0.5);
+  background: #ADADAD;
+  background: linear-gradient(45deg, #ADADAD 0%, #5E5E5E 100%);
+  box-shadow: 0 6px 20px 0 rgba(173, 173, 173, 0.5);
 }
 
 .card-expenses {
-  background: #2962FF;
-  background: -webkit-linear-gradient(45deg, #2962FF 0%, #3949ab 100%);
-  background: linear-gradient(45deg, #2962FF 0%, #3949ab 100%);
-  box-shadow: 0 6px 20px 0 rgba(57, 73, 171, 0.5);
+  background: #ADADAD;
+  background: linear-gradient(45deg, #ADADAD 0%, #5E5E5E 100%);
+  box-shadow: 0 6px 20px 0 rgba(173, 173, 173, 0.5);
 }
 
 .card-title {

@@ -19,9 +19,9 @@
         // Styles
         circleThickness: 0.08, // The outer circle thickness as a percentage of it's radius.
         circleFillGap: 0.02, // The size of the gap between the outer circle and wave circle as a percentage of the outer circles radius.
-        circleColor: "#178BCA", // The color of the outer circle.
+        circleColor: "#9ED2DB", // The color of the outer circle.
         backgroundColor: null, // The color of the background
-        waveColor: "#178BCA", // The color of the fill wave.
+        waveColor: "#9ED2DB", // The color of the fill wave.
         width: 0, // You might want to set the width and height if it is not detected properly by the plugin
         height: 0,
 
@@ -50,8 +50,8 @@
         textVertPosition: 0.8, // The height at which to display the percentage text withing the wave circle. 0 = bottom, 1 = top.
         textSize: 1, // The relative height of the text to display in the wave circle. 1 = 50%
         displayPercent: true, // If true, a % symbol is displayed after the value.
-        textColor: "#045681", // The color of the value text when the wave does not overlap it.
-        waveTextColor: "#A4DBf8", // The color of the value text when the wave overlaps it.
+        textColor: "#9ED2DB", // The color of the value text when the wave does not overlap it.
+        waveTextColor: "#9ED2DB", // The color of the value text when the wave overlaps it.
     };
 
     d3.liquidfillgauge = function(g, value, settings) {
