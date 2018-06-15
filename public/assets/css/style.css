@@ -149,12 +149,13 @@ ul.side-nav.leftside-navigation {
 /* Area Chart  */
 .morris-hover {
   text-align: center;
+  color: white;
 }
 text {
-  fill: black;
+  fill: white;
 }
 .morris-hover-point {
-  color: '#0BA462';
+  color:white !important;
 }
 #linecard {
   box-shadow: 0 6px 20px 0 rgba(57, 73, 171, 0.5);
