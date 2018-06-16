@@ -77,19 +77,19 @@
           <li>
             <a class="waves-effect waves-dark btn modal-trigger" href="#company">
               <i class="material-icons">list</i>
-              <span class="waves-effect waves-block waves-light nav-text">Company Info</span>
+              <span class="waves-effect waves-block waves-light nav-text">Company</span>
             </a>
           </li>
           <li>
             <a class="waves-effect waves-dark btn modal-trigger" href="#expenses">
               <i class="material-icons">credit_card</i>
-              <span class="waves-effect waves-block waves-light nav-text">Expense Info</span>
+              <span class="waves-effect waves-block waves-light nav-text">Expenses</span>
             </a>
           </li>
           <li>
             <a class="waves-effect waves-dark btn modal-trigger" href="#income">
               <i class="material-icons">attach_money</i>
-              <span class="waves-effect waves-block waves-light nav-text">Income Info</span>
+              <span class="waves-effect waves-block waves-light nav-text">Income</span>
             </a>
           </li>
 
@@ -194,105 +194,137 @@
             <div class="modal-content">
               <div class="card-panel">
                 <div class="card-content">
+                    <h4>Add New</h4>
+                  <form action="">
                   <p class="card-title">Company Info</p>
                   <p>Company Name:
                     <input id="companyname" type="text" placeholder="Ballpark Burnrate">
                   </p>
-                  <input href="#!" id="companybtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit">
 
+                  <input href="#!" id="companybtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit">
+                  <p>Your Companies:</p>
+                  <table id="companytbl">
+                    </form>
+                  </table>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Expenses -->
-          <div id="expenses" class="modal">
+          <!-- Expense Table Modal -->
+          <div id="brwsexp" class="modal">
             <div class="modal-content">
               <form action="">
-                <p>Expense Amount ($):
-                  <input id="expenseamt" type="text" placeholder="10000">
-                </p>
-                <p>Expense Date:
-                  <input id="expensedate" type="date" placeholder="">
-                </p>
-                <p>Vendor:
-                  <input id="vendor" type="text" placeholder="Amazon">
-                </p>
-                <p>Expense Description:
-                  <input id="expensedesc" type="text" placeholder="Web Services">
-                </p>
-                <p>Is this a recurring expense? If so, enter the next billing date.
-                  <input id="expensedate" type="date" placeholder="">
-                </p>
-                <a class="waves-effect waves-light btn-flat modal-trigger" href="#brwsexp">
+                <table id="exptbl">
+
+                </table>
+                <input href="#!" id="etblbtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit Changes">
+              </form>
+            </div>
+          </div>
+            
+                      <!-- Expense Table Modal -->
+          <div id="brwsinc" class="modal">
+              <div class="modal-content">
+                <form action="">
+                  <table id="inctbl">
+  
+                  </table>
+                  <input href="#!" id="itblbtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit Changes">
+                </form>
+              </div>
+            </div>
+
+            <!-- Expenses -->
+            <div id="expenses" class="modal">
+              <div class="modal-content">
+                <h4>Add New</h4>
+                <form action="">
+                  <p>Expense Amount ($):
+                    <input id="expenseamt" type="text" placeholder="10000">
+                  </p>
+                  <p>Expense Date:
+                    <input id="expensedate" type="date" placeholder="">
+                  </p>
+                  <p>Vendor:
+                    <input id="vendor" type="text" placeholder="Amazon">
+                  </p>
+                  <p>Expense Description:
+                    <input id="expensedesc" type="text" placeholder="Web Services">
+                  </p>
+                  <p>Is this a recurring expense? If so, enter the next billing date.
+                    <input id="expensedate" type="date" placeholder="">
+                  </p>
+                  <a class="waves-effect waves-light btn-flat modal-trigger" href="#brwsexp">
                     <span class="waves-effect waves-block waves-light nav-text">Browse Expenses</span>
-                </a>
-                <input href="#!" id="expensebtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit">
-              </form>
+                  </a>
+                  <input href="#!" id="expensebtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit">
+                </form>
+              </div>
+
             </div>
 
-          </div>
-
-          <!-- Income -->
-          <div id="income" class="modal">
-            <div class="modal-content">
-              <form action="">
-                <p>Income Amount ($):
-                  <input id="incomeamt" type="text" placeholder="10000">
-                </p>
-                <p>Income Date:
-                  <input id="incomedate" type="date" placeholder="">
-                </p>
-                <p>Customer:
-                  <input id="customer" type="text" placeholder="Netflix">
-                </p>
-                <p>Income Description:
-                  <input id="incomedesc" type="text" placeholder="Web Services">
-                </p>
-                <p>Is this a recurring income source? If so, enter the next billing date.
-                  <input id="incomedate" type="date" placeholder="">
-                </p>
-                <a class="waves-effect waves-light btn-flat modal-trigger" href="#brwsinc">
+            <!-- Income -->
+            <div id="income" class="modal">
+              <div class="modal-content">
+                  <h4>Add New</h4>
+                <form action="">
+                  <p>Income Amount ($):
+                    <input id="incomeamt" type="text" placeholder="10000">
+                  </p>
+                  <p>Income Date:
+                    <input id="incomedate" type="date" placeholder="">
+                  </p>
+                  <p>Customer:
+                    <input id="customer" type="text" placeholder="Netflix">
+                  </p>
+                  <p>Income Description:
+                    <input id="incomedesc" type="text" placeholder="Web Services">
+                  </p>
+                  <p>Is this a recurring income source? If so, enter the next billing date.
+                    <input id="incomedate" type="date" placeholder="">
+                  </p>
+                  <a class="waves-effect waves-light btn-flat modal-trigger" href="#brwsinc">
                     <span class="waves-effect waves-block waves-light nav-text">Browse Income</span>
-                </a>
-                <input href="#!" id="expensebtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit">
-              </form>
+                  </a>
+                  <input href="#!" id="expensebtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit">
+                </form>
+              </div>
             </div>
+
+
           </div>
-
-
-        </div>
-        <!--end container-->
+          <!--end container-->
       </section>
       <!-- END CONTENT -->
+      </div>
+      <!-- END WRAPPER -->
     </div>
-    <!-- END WRAPPER -->
-  </div>
-  <!-- END MAIN -->
+    <!-- END MAIN -->
 
 
 
-  <!--Scripts-->
+    <!--Scripts-->
 
-  <!--D3 Charts-->
-  <script src="http://d3js.org/d3.v4.min.js" type="text/javascript"></script>
-  <script src="../public/assets/js/liquidFillGauge.js" type="text/javascript"></script>
+    <!--D3 Charts-->
+    <script src="http://d3js.org/d3.v4.min.js" type="text/javascript"></script>
+    <script src="../public/assets/js/liquidFillGauge.js" type="text/javascript"></script>
 
-  <!--JQuery Library-->
-  <script type="text/javascript" src="../public/assets/js/jquery-3.2.1.min.js"></script>
+    <!--JQuery Library-->
+    <script type="text/javascript" src="../public/assets/js/jquery-3.2.1.min.js"></script>
 
-  <!--Morris Charts-->
-  <script src="../public/assets/js/raphael-min.js" type="text/javascript"></script>
-  <script src="../public/assets/js/morris.min.js" type="text/javascript"></script>
+    <!--Morris Charts-->
+    <script src="../public/assets/js/raphael-min.js" type="text/javascript"></script>
+    <script src="../public/assets/js/morris.min.js" type="text/javascript"></script>
 
-  <!--Materialize Script-->
-  <script type="text/javascript" src="../public/assets/js/materialize.min.js"></script>
+    <!--Materialize Script-->
+    <script type="text/javascript" src="../public/assets/js/materialize.min.js"></script>
 
-  <!--Custom Scripts-->
-  <script src="../public/assets/js/charts.js" type="text/javascript"></script>
-  <script src="../public/assets/js/bargraph.js" type="text/javascript"></script>
+    <!--Custom Scripts-->
+    <script src="../public/assets/js/charts.js" type="text/javascript"></script>
+    <script src="../public/assets/js/bargraph.js" type="text/javascript"></script>
 
-  <script type="text/javascript" src="../public/assets/js/bp-burnout.js"></script>
+    <script type="text/javascript" src="../public/assets/js/bp-burnout.js"></script>
 
 
 </body>
