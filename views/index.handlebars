@@ -107,6 +107,12 @@
               <span class="waves-effect waves-block waves-light nav-text">Income</span>
             </a>
           </li>
+                    <li>
+            <a class="waves-effect waves-dark btn modal-trigger" href="#browse">
+              <i class="material-icons">list</i>
+              <span class="waves-effect waves-block waves-light nav-text">Browse Data</span>
+            </a>
+          </li>
 
         </ul>
       </aside>
@@ -233,22 +239,17 @@
             </div>
           </div>
 
-          <!-- Expense Table Modal -->
-          <div id="brwsexp" class="modal">
-            <div class="modal-content">
-              <form action="">
+            
+                      <!-- Table Modal -->
+          <div id="browse" class="modal">
+              <div class="modal-content">
+                <form action="">
+                  <h4>Expenses</h4>
                 <table id="exptbl">
 
                 </table>
-                <input href="#!" id="etblbtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit">
-              </form>
-            </div>
-          </div>
-            
-                      <!-- Expense Table Modal -->
-          <div id="brwsinc" class="modal">
-              <div class="modal-content">
-                <form action="">
+                <p></p>
+                <h4>Income</h4>
                   <table id="inctbl">
   
                   </table>
@@ -275,11 +276,9 @@
                     <input id="expensedesc" type="text" placeholder="Web Services">
                   </p>
                   <p>Is this a recurring expense? If so, enter the next billing date.
-                    <input id="expensedate" type="date" placeholder="">
+                    <input id="expensenxtdate" type="date" placeholder="">
                   </p>
-                  <a class="waves-effect waves-light btn-flat modal-trigger" href="#brwsexp">
-                    <span class="waves-effect waves-block waves-light nav-text">Browse Expenses</span>
-                  </a>
+
                   <input href="#!" id="expensebtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit">
                 </form>
               </div>
@@ -304,12 +303,9 @@
                     <input id="incomedesc" type="text" placeholder="Web Services">
                   </p>
                   <p>Is this a recurring income source? If so, enter the next billing date.
-                    <input id="incomedate" type="date" placeholder="">
+                    <input id="incomenxtdate" type="date" placeholder="">
                   </p>
-                  <a class="waves-effect waves-light btn-flat modal-trigger" href="#brwsinc">
-                    <span class="waves-effect waves-block waves-light nav-text">Browse Income</span>
-                  </a>
-                  <input href="#!" id="expensebtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit">
+                  <input href="#!" id="incomebtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit">
                 </form>
               </div>
             </div>
