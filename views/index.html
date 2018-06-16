@@ -66,6 +66,12 @@
               <i class="material-icons">portrait</i>
               <span class="waves-effect waves-block waves-light nav-text">Sign In</span>
             </a>
+            <li>
+                <a class="waves-effect waves-dark btn modal-trigger" href="#signup">
+                    <i class="material-icons">portrait</i>
+                    <span class="waves-effect waves-block waves-light nav-text">Sign Up</span>
+                  </a>
+            </li>
           </li>
           <!-- Dashboard Button doesn't add any functionality -->
           <!-- <li>
@@ -160,10 +166,8 @@
                     <p>Password:
                       <input id="pass" type="password" placeholder="xxxxx">
                     </p>
-                    <a class="waves-effect waves-light btn-flat modal-trigger" href="#signup">
-                      <span class="waves-effect waves-block waves-light nav-text">Sign Up</span>
-                    </a>
-                    <input type="submit" href="#!" id="signinbtn" class="modal-close waves-effect waves-light btn-flat">
+
+                    <input type="submit" value="Submit" href="#!" id="signinbtn" class="modal-close waves-effect waves-light btn-flat">
                   </form>
                 </div>
               </div>
@@ -177,12 +181,21 @@
                 <div class="card-content">
                   <form action="">
                     <p class="card-title">Sign Up</p>
+                    <p>Email Address:
+                        <input id="email" type="text" placeholder="therealme">
+                      </p>   
+                      <p>First Name:
+                          <input id="first" type="text" placeholder="Stephen">
+                        </p>   
+                        <p>Last Name:
+                            <input id="last" type="text" placeholder="Curry">
+                          </p>                  
                     <p>Username:
-                      <input id="newuser" type="text" placeholder="therealme">
+                      <input id="newusername" type="text" placeholder="me">
                     </p>
                     <p>Password:</p>
-                    <p id="passwordgen"></p>
-                    <input type="submit" href="#!" id="signupbtn" class="modal-close waves-effect waves-light btn-flat">
+                    <input id="newpass" type="password" placeholder="xxxxx">
+                    <input type="submit" href="#!" id="signupbtn" value="Submit" class="modal-close waves-effect waves-light btn-flat">
                   </form>
                 </div>
               </div>
@@ -218,7 +231,7 @@
                 <table id="exptbl">
 
                 </table>
-                <input href="#!" id="etblbtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit Changes">
+                <input href="#!" id="etblbtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit">
               </form>
             </div>
           </div>
@@ -230,7 +243,7 @@
                   <table id="inctbl">
   
                   </table>
-                  <input href="#!" id="itblbtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit Changes">
+                  <input href="#!" id="itblbtn" class="modal-close waves-effect waves-light btn-flat" type="submit" value="Submit">
                 </form>
               </div>
             </div>
